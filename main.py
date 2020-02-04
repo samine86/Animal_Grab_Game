@@ -77,7 +77,7 @@ class GameWindow(Screen):
             self.game_end()
 
         self.canvas.clear()
-        self.canvas.add(Rectangle(source='pics\jungle.jpg', pos=(0, 0), size=(Window.width, Window.height)))
+        self.canvas.add(Rectangle(source='pics\background.jpg', pos=(0, 0), size=(Window.width, Window.height)))
 
         self.ScoreLabel.text = 'Score : ' + str(Public.score)
         self.TimeLabel.text = 'Remain ' + str(Public.game_time) + ' Sec'
